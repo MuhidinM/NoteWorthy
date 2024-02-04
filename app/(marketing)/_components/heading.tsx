@@ -1,5 +1,6 @@
 "use client";
 
+import { ArrowRightIcon } from "@radix-ui/react-icons";
 import React from "react";
 
 export const Heading = () => {
@@ -7,8 +8,16 @@ export const Heading = () => {
     <div className="max-w-3xl space-y-4">
       <h1 className="text-3xl sm:text-5xl md:text-6xl">
         Your Ideas, Documents, & Plans. Unified. Welcome to{" "}
-        <span className="underline">NoteWorth</span>
+        <span className="underline">NoteWorthy</span>
       </h1>
+      <h3 className="text-base sm:text-xl md:text-2xl font-medium">
+        NoteWorthy is the connected workspace where <br />
+        better, faster work happens.
+      </h3>
+      <button className="bg-gray-900 text-white">
+        Enter NoteWorthy
+        <ArrowRightIcon />
+      </button>
     </div>
   );
 };
