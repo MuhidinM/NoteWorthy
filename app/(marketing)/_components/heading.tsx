@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import React from "react";
 
@@ -14,10 +15,10 @@ export const Heading = () => {
         NoteWorthy is the connected workspace where <br />
         better, faster work happens.
       </h3>
-      <button className="bg-gray-900 text-white">
+      <Button>
         Enter NoteWorthy
         <ArrowRightIcon />
-      </button>
+      </Button>
     </div>
   );
 };
