@@ -27,7 +27,7 @@ export const Navbar = () => {
         {isLoading && <Spinner />}
         {isAuthenticated && !isLoading && (
           <>
-            <Button variant={"ghost"} size={"sm"} asChild>
+            <Button size={"sm"} asChild>
               <Link href={"/documents"}>Enter NoteWorthy</Link>
             </Button>
             <UserButton afterSignOutUrl="/" />
